@@ -1,0 +1,107 @@
+<html>
+<title>Invitación a boda</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="./styles/styles.css">
+<link rel="icon" type="image/ico" href="./assets/favicon.ico">
+
+<body>
+
+
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo" style="text-shadow: 3px 3px #000000;" >Marta y José</h1>
+    <h2 style="text-shadow: 2px 2px #000000;">Se van a casar</h2>
+    <h2 style="text-shadow: 2px 2px #000000; "><b>00.00.2222</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Inicio</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Marta y José</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Boda</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Confirmar asistencia</a>
+  </div>
+</div>
+
+<!-- About / Alice And Jeremy -->
+<div class="w3-container w3-padding-64 w3-pale-green w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Marta y José</b></h1>
+    <img class="w3-round w3-grayscale-min" src="https://www.brides.com/thmb/kfFE06MSaLHpJt_oxobOUa4neSM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/33814_05-eb9a2e4cc91544c5b78cc623c3c56222.jpg" style="width:100%;margin:32px 0">
+    <p><i>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+      </i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Detalles de la boda</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo" style="text-shadow: 2px 2px #000000; ">Estás invitad@</h1><br>
+    <h2 style="text-shadow: 2px 2px #000000; " >Por supuesto..</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-green w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>La boda</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="https://www.travelandleisure.com/thmb/V4XfbHlCmoZn_z23R8BbsDYD0GY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-wild-dunes-BEACHWEDHOTEL1223-c4aed295aa9d413bbad9cc911e8c65d5.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>Cuando</h2>
+        <p>Ceremonia - 2:00pm</p>
+        <p>Recepción y cena - 5:00pm</p>
+      </div>
+      <div class="w3-half">
+        <h2>Donde</h2>
+        <p>Direccion
+          Lugar</p>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-green w3-center w3-wide" id="rsvp">
+  <h1>Esperamos que puedas asistir!</h1>
+  <p class="w3-large">Por favor responda antes de diciembre de 2024</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-white w3-opacity w3-hover-opacity-off" style="padding:8px 60px; box-shadow: 2px 2px #000000;">
+        Confirmar asistencia
+    </button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">Puedes venir ?</h1>
+      <p> Realmente esperamos que puedas venir.</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Ingrese su nombre" name="name">
+      </form>
+      <p><i>Atentamente, Marta y José</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="onAttend(true)" type="button" class="w3-button w3-block w3-green">Si!</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">No asistiré</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>

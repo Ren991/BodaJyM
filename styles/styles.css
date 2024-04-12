@@ -1,0 +1,17 @@
+body,h1,h2{
+    font-family: "Raleway", 
+    sans-serif
+}
+body, html {
+    height: 100%
+}
+p {
+    line-height: 2
+}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg {background-image: url("https://www.brides.com/thmb/kfFE06MSaLHpJt_oxobOUa4neSM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/33814_05-eb9a2e4cc91544c5b78cc623c3c56222.jpg")}
+.bgimg2 {background-image: url("https://static.pexels.com/photos/256737/pexels-photo-256737.jpeg ")}
